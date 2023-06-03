@@ -2,39 +2,19 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-
-import Un_Home from './unamused/pages/homepage/unamused_home'
-import Homepage from './home/pages/homepage/homepage'
+import { Link } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route exact path='/' element={<Homepage/>} />
-        <Route exact path='/unamused' element={<Un_Home/>} />
-      </Routes>
-    </Router>
-
-    /*
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>TEST OF HOME PAGE</h1>
+      <h2>
+        <Link to="/unamused">Unamused</Link>
+      </h2>
     </div>
-    */
   );
 }
+
+
 
 export default App;

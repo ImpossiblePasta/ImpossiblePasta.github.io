@@ -1,4 +1,5 @@
 import React from 'react';
+
 import cardimg from '../../assets/card_images_v0/A Bear With a Briefcase.png';
 
 function Unamused_Home(){
