@@ -7,7 +7,7 @@ import ReactDOM from 'react-dom';
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 import App from './App';
-import UnHome from './unamused/pages/homepage/unamused_home'
+import UnHome from './pages/homepage/unamused_home'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
