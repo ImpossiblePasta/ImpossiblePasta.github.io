@@ -1,8 +1,22 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+
+import Un_Home from './unamused/pages/homepage/unamused_home'
+import Homepage from './home/pages/homepage/homepage'
+
 function App() {
   return (
+    <Router>
+      <Routes>
+        <Route exact path='/' element={<Homepage/>} />
+        <Route exact path='/unamused' element={<Un_Home/>} />
+      </Routes>
+    </Router>
+
+    /*
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -19,6 +33,7 @@ function App() {
         </a>
       </header>
     </div>
+    */
   );
 }
 
