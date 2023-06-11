@@ -11,6 +11,9 @@ function App() {
       <h2>
         <Link to="/unamused">Unamused</Link>
       </h2>
+      <h2>
+        <Link to="/curm">CURM</Link>
+      </h2>
     </div>
   );
 }

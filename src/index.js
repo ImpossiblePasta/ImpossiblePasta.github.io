@@ -8,6 +8,8 @@ import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 import App from './App';
 import UnHome from './pages/homepage/unamused_home'
+import CurmHome from './pages/curm/curm_home'
+import CurmCommon from './pages/curm/curm_common'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -17,6 +19,8 @@ ReactDOM.render(
       <Routes>
         <Route exact path='/' element={<App/>} />
         <Route exact path='/unamused' element={<UnHome/>} />
+        <Route exact path='/curm' element={<CurmHome/>} />
+        <Route exact path='/curm/common' element={<CurmCommon/>} />
       </Routes>
     </Router>
   </React.StrictMode>,
