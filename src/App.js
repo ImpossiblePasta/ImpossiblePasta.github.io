@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from './components/header.js';
 import logo from './logo.svg';
 import './App.css';
 
@@ -6,7 +7,9 @@ import { Link } from "react-router-dom";
 
 function App() {
   return (
+
     <div>
+      <Header></Header>
       <h1>TEST OF HOME PAGE</h1>
       <h2>
         <Link to="/unamused">Unamused</Link>
@@ -17,7 +20,5 @@ function App() {
     </div>
   );
 }
-
-
 
 export default App;
