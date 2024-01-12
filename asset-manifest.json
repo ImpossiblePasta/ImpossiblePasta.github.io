@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/Unamused/static/css/main.073c9b0a.css",
-    "main.js": "/Unamused/static/js/main.849d80a3.js",
-    "static/js/787.ced4e531.chunk.js": "/Unamused/static/js/787.ced4e531.chunk.js",
-    "static/media/A Bear With a Briefcase.png": "/Unamused/static/media/A Bear With a Briefcase.b41258b77bde95650410.png",
+    "main.css": "/Unamused/static/css/main.4e184d97.css",
+    "main.js": "/Unamused/static/js/main.02b7cfd7.js",
+    "static/js/787.1b14b5df.chunk.js": "/Unamused/static/js/787.1b14b5df.chunk.js",
+    "static/media/A Bear With a Briefcase.png": "/Unamused/static/media/A Bear With a Briefcase.af168f047dab45f1e55d.png",
+    "static/media/trans_d20.png": "/Unamused/static/media/trans_d20.88221cbcdb22ba6f22d3.png",
     "static/media/logo.svg": "/Unamused/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Unamused/index.html",
-    "main.073c9b0a.css.map": "/Unamused/static/css/main.073c9b0a.css.map",
-    "main.849d80a3.js.map": "/Unamused/static/js/main.849d80a3.js.map",
-    "787.ced4e531.chunk.js.map": "/Unamused/static/js/787.ced4e531.chunk.js.map"
+    "main.4e184d97.css.map": "/Unamused/static/css/main.4e184d97.css.map",
+    "main.02b7cfd7.js.map": "/Unamused/static/js/main.02b7cfd7.js.map",
+    "787.1b14b5df.chunk.js.map": "/Unamused/static/js/787.1b14b5df.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.849d80a3.js"
+    "static/css/main.4e184d97.css",
+    "static/js/main.02b7cfd7.js"
   ]
 }
