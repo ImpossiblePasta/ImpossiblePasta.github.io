@@ -8,8 +8,8 @@ function Header() {
                 <img height={50} width={50} src={d20}/>
             </a>
             <div class="header-right">
-                <a class="active" href="#home">Home</a>
-                <a href="#contact">Contact</a>
+                <a href="#home">Spoiler</a>
+                <a href="#contact">Play</a>
                 <a href="#about">About</a>
             </div>
         </div>
