@@ -1,3 +1,4 @@
+/*
 .App {
   text-align: center;
 }
@@ -13,6 +14,7 @@
   }
 }
 
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -23,6 +25,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
 
 .App-link {
   color: #61dafb;
@@ -36,34 +39,63 @@
     transform: rotate(360deg);
   }
 }
+*/
+
+/*
+/// Section for PAGE COMPOSITION
+*/
+
+html, body {
+  height: 100%;
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  order: 2;
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex-shrink: 0;
+  order: 3;
+}
 
 /*
 /// Section for HEADER
-/*
+*/
 
 /* Style the header with a grey background and some padding */
 .header {
+  /* width: 100%;                   /* Header width */
   overflow: hidden;
   background-color: #ffb9b9;
-  padding: 0px 10px;
+  padding: 0px 5px;
 }
 
 /* Style the header links */
 .header a {
+  height: 30px;
   float: left;
   color: #360000;
   text-align: center;
-  padding: 12px;
+
+  padding: 15px 12px;
   font-weight: bold;
   text-decoration: none;
   font-size: 18px;
-  line-height: 25px;
-  border-radius: 1px;
+  min-width: 55px;
 }
 
 /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
 .header a.logo {
-  padding: 2px;
+  justify-content: center;
+  padding: 5px 2px;
+  height: 50px;
 }
 
 /* Change the background color on mouse-over */
@@ -92,5 +124,115 @@
   }
   .header-right {
     float: none;
+  }
+}
+
+/*
+/// Section for FOOTER
+*/
+
+/* Style the header with a grey background and some padding */
+.footer {
+  overflow: hidden;
+  background-color: #222222;
+  
+  padding: 0px 5px;
+  min-height: 130px;
+  height: auto;
+
+  display: flex;
+}
+
+/* Style the header links */
+.footer a {
+  float: left;
+  color: #d3d3d3;
+
+  font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif;
+  padding: 5px 5px;
+  margin: 10px 15px;
+  text-decoration: none;
+  font-size: 14px;
+  min-width: 20px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.footer a.logo {
+  justify-content: center;
+  padding: 5px 2px;
+  height: 50px;
+}
+
+/* Change the background color on mouse-over */
+.footer a:hover {
+  color: #ffb9b9;
+}
+
+/* Style the active/current link*/
+.footer a.active {
+  background-color: #ee7272;
+  color: white;
+}
+
+/* Style the header links */
+.footer a.symbol {
+  padding: 5px 5px;
+  margin: 10px 15px;
+}
+
+/* Change the background color on mouse-over */
+.footer a.symbol:hover {
+  background-color: #ffb9b9;
+}
+
+/* Float the link section to the right */
+.footer-box {
+  min-width: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Float the link section to the right */
+.link-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0px;
+}
+
+/* Float the sets in the middle */
+.footer-center {
+  justify-content: center;
+  display: grid;
+  padding: 5px 0px;
+  margin: 0px;
+  flex-basis: 100%;
+}
+
+.footer-center text {
+  color: #d3d3d3;
+  font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif;
+  text-align: center;
+  padding: 0px;
+  margin: 0px 10px;
+}
+
+.footer-center set {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px 0px;
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 600px) {
+  .footer {
+    display: block;
+  }
+
+  .footer-box {
+    width: 100%;
   }
 }

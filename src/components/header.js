@@ -8,9 +8,9 @@ function Header() {
                 <img height={50} width={50} src={d20}/>
             </a>
             <div class="header-right">
-                <a href="#home">Spoiler</a>
+                <a href="https://cubecobra.com/cube/list/UNA?view=spoiler&scale=large" target="_blank">Gallery</a>
                 <a href="#contact">Play</a>
-                <a href="#about">About</a>
+                <a href="#about">Effects</a>
             </div>
         </div>
     )

@@ -7,7 +7,7 @@ import ReactDOM from 'react-dom';
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 import App from './App';
-import UnHome from './pages/homepage/unamused_home'
+import Play from './pages/play/play'
 import About from './pages/about/about'
 import CurmHome from './pages/curm/curm_home'
 import CurmCommon from './pages/curm/curm_common'
@@ -19,7 +19,7 @@ ReactDOM.render(
     <Router>
       <Routes>
         <Route exact path='/' element={<App/>} />
-        <Route exact path='/unamused' element={<UnHome/>} />
+        <Route exact path='/play' element={<Play/>} />
         <Route exact path='/about' element={<About/>} />
         <Route exact path='/curm' element={<CurmHome/>} />
         <Route exact path='/curm/common' element={<CurmCommon/>} />
