@@ -7,7 +7,8 @@ import { Link } from "react-router-dom";
 
 function App() {
   return (
-    <div>
+    <div class="page_body">
+      
       <h1>TEST OF HOME PAGE</h1>
       <h2>
         <Link to="/unamused">Unamused</Link>
