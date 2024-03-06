@@ -2,18 +2,6 @@
 /// Section for PAGE COMPOSITION
 */
 
-html {
-  height: 100%;
-  background-color: #222222;
-}
-
-body {
-  height: 100%;
-  background-color: #ebebeb;
-  display: flex;
-  flex-direction: column;
-}
-
 .content {
   order: 2;
   flex: 1 0 auto;
@@ -41,7 +29,6 @@ body {
   height: 30px;
   float: left;
   
-  font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif;
   color: #d3d3d3;
   text-align: center;
   font-weight: bold;
@@ -56,8 +43,14 @@ body {
 /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
 .header a.logo {
   justify-content: center;
-  padding: 5px 2px;
+  align-items: center;
+  text-align: center;
+  font-size: 24px;
   height: 50px;
+  padding: 5px 2px;
+  gap: 7px;
+  display: flex;
+  margin: auto;
 }
 
 /* Change the background color on mouse-over */
@@ -78,7 +71,7 @@ body {
 }
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .header a {
     float: none;
     display: block;
@@ -199,13 +192,4 @@ body {
   .footer-box {
     width: 100%;
   }
-}
-
-
-/*
-/// Section for PAGE BODY
-*/
-.page_body {
-  padding: 5px 10px;
-  margin: 0px;
 }
