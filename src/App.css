@@ -59,12 +59,6 @@
   color: #222222;
 }
 
-/* Style the active/current link*/
-.header a.active {
-  background-color: #ffb9b9;
-  color: white;
-}
-
 /* Float the link section to the right */
 .header-right {
   float: right;
@@ -121,12 +115,6 @@
 /* Change the background color on mouse-over */
 .footer a:hover {
   color: #ffb9b9;
-}
-
-/* Style the active/current link*/
-.footer a.active {
-  background-color: #ee7272;
-  color: white;
 }
 
 /* Style the header links */
