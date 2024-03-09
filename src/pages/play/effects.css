@@ -1,29 +1,11 @@
 .container {
-  background-color: green;
+  background-color: blanchedalmond;
   padding: 20px 0px;
   width: 100%;
   max-width:1200px;
   margin: 0px auto;
   display: flex;
+  flex-flow: wrap;
+  justify-content: center;
 }
 
-.card {
-  margin: 5px;
-  box-sizing: 'border-box';
-  background-color: #f0f0f0;
-  border: '1px solid #aa0000';
-  justify-content: 'center';
-  border-radius: 2px;
-}
-
-.card Image {
-  
-}
-
-.card Button {
-  width: 50px;
-}
-
-.card p {
-  
-}

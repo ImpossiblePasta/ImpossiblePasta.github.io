@@ -1,0 +1,59 @@
+.card {
+  /* Display a card as a flex box containing the cards name, img, and links */
+  display: flex;
+  flex-direction: column;
+  
+  /* Set The shape of the card */
+  margin: 5px;
+  box-sizing: border-box;
+  background-color: #f0f0f0;
+  border: '2px solid #aa0000';
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+}
+
+.card img {
+  width: 300px;
+}
+
+.card a {
+  background-color: #222222;
+  color: #d3d3d3;
+  font-size: 22px;
+  text-align: center;
+  line-height: 50px;
+  
+  width: 100%;
+  height: 50px;
+  border-radius: 10px 0px 0px 10px;
+  border-right: 1px solid rgb(200, 201, 202);
+  transition: 0.3s;
+}
+
+.card a:hover {
+  background-color: #ffb9b9;
+  color: #222222;
+}
+
+.card a.link {
+  width: 50px;
+  height: 50px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.card a.link img {
+  width: 40px;
+  height: 40px;
+  filter: invert(100%);
+}
+
+.card p {
+  
+}
+
+.card .ButtLayout {
+  display: flex;
+  width: 300px;
+  padding: 10px;
+}
