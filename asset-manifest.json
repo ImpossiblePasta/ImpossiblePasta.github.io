@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/Unamused/static/css/main.ea82f065.css",
-    "main.js": "/Unamused/static/js/main.3e85fc56.js",
+    "main.css": "/Unamused/static/css/main.2f8ef0fc.css",
+    "main.js": "/Unamused/static/js/main.2616baeb.js",
     "static/js/787.1b14b5df.chunk.js": "/Unamused/static/js/787.1b14b5df.chunk.js",
+    "static/media/Quandrix Recall Codex.png": "/Unamused/static/media/Quandrix Recall Codex.fe50940c10294c908ec0.png",
+    "static/media/Sheet Head.png": "/Unamused/static/media/Sheet Head.7efd5fb5a38de08887d4.png",
+    "static/media/Trifle Mage.png": "/Unamused/static/media/Trifle Mage.5b998c1e32c4a3c088e4.png",
     "static/media/lotus.jpeg": "/Unamused/static/media/lotus.918aa4b8b71acd415a09.jpeg",
     "static/media/trans_d20.png": "/Unamused/static/media/trans_d20.88221cbcdb22ba6f22d3.png",
     "static/media/logo.svg": "/Unamused/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Unamused/index.html",
-    "main.ea82f065.css.map": "/Unamused/static/css/main.ea82f065.css.map",
-    "main.3e85fc56.js.map": "/Unamused/static/js/main.3e85fc56.js.map",
+    "main.2f8ef0fc.css.map": "/Unamused/static/css/main.2f8ef0fc.css.map",
+    "main.2616baeb.js.map": "/Unamused/static/js/main.2616baeb.js.map",
     "787.1b14b5df.chunk.js.map": "/Unamused/static/js/787.1b14b5df.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea82f065.css",
-    "static/js/main.3e85fc56.js"
+    "static/css/main.2f8ef0fc.css",
+    "static/js/main.2616baeb.js"
   ]
 }
