@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "/Unamused/static/css/main.2f8ef0fc.css",
-    "main.js": "/Unamused/static/js/main.2616baeb.js",
+    "main.css": "/Unamused/static/css/main.4794a46d.css",
+    "main.js": "/Unamused/static/js/main.d8b4d51f.js",
     "static/js/787.1b14b5df.chunk.js": "/Unamused/static/js/787.1b14b5df.chunk.js",
+    "static/media/Curm Trashmaster Mage.png": "/Unamused/static/media/Curm Trashmaster Mage.7833f4d004fd814d9c32.png",
     "static/media/Quandrix Recall Codex.png": "/Unamused/static/media/Quandrix Recall Codex.fe50940c10294c908ec0.png",
+    "static/media/Omenpath Awakener.png": "/Unamused/static/media/Omenpath Awakener.c3ad13a2651487567436.png",
     "static/media/Sheet Head.png": "/Unamused/static/media/Sheet Head.7efd5fb5a38de08887d4.png",
+    "static/media/Blade of This or That.png": "/Unamused/static/media/Blade of This or That.cffd7062d917db0187f5.png",
     "static/media/Trifle Mage.png": "/Unamused/static/media/Trifle Mage.5b998c1e32c4a3c088e4.png",
     "static/media/lotus.jpeg": "/Unamused/static/media/lotus.918aa4b8b71acd415a09.jpeg",
     "static/media/trans_d20.png": "/Unamused/static/media/trans_d20.88221cbcdb22ba6f22d3.png",
     "static/media/logo.svg": "/Unamused/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Unamused/index.html",
-    "main.2f8ef0fc.css.map": "/Unamused/static/css/main.2f8ef0fc.css.map",
-    "main.2616baeb.js.map": "/Unamused/static/js/main.2616baeb.js.map",
+    "main.4794a46d.css.map": "/Unamused/static/css/main.4794a46d.css.map",
+    "main.d8b4d51f.js.map": "/Unamused/static/js/main.d8b4d51f.js.map",
     "787.1b14b5df.chunk.js.map": "/Unamused/static/js/787.1b14b5df.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f8ef0fc.css",
-    "static/js/main.2616baeb.js"
+    "static/css/main.4794a46d.css",
+    "static/js/main.d8b4d51f.js"
   ]
 }
