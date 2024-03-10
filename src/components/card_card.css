@@ -9,7 +9,7 @@
   background-color: #f0f0f0;
   border: '2px solid #aa0000';
   align-items: center;
-  justify-content: center;
+  justify-content: initial;
   border-radius: 2px;
 }
 
