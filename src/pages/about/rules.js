@@ -1,18 +1,17 @@
 import React from 'react';
 import {Text, Image, Button} from 'react-native';
-import './play.css';
+import './about.css';
 import ArtHeader from '../../components/art_header';
 
-function Play(){
-    document.title="About"
+function Rules(){
+    document.title="Rules"
     return(
         <div>
-            {ArtHeader("PRINT & PLAY")}
-            <div class="container">
-
-            </div>
+            {ArtHeader("RULES")}
+            <a>text
+            </a>
         </div>
     );
 }
 
-export default Play
+export default Rules

@@ -3,12 +3,11 @@ import {ImageBackground, StyleSheet, Text, View} from 'react-native';
 import lotus from '../assets/icons/lotus.jpeg';
 
 function ArtHeader(headerText) {
-    const [HeaderText, setHeaderText]  = useState(headerText);
 
     return (
         <View name="ArtHeader" style={styles.container}>
             <ImageBackground source={lotus} resizeMode="cover" style={styles.image}>
-            <Text style={styles.text}>{HeaderText}</Text>
+            <Text style={styles.text}>{headerText}</Text>
             <Text style={styles.credits}>Art by: Steven Belledin, 2017</Text>
             </ImageBackground>
         </View>

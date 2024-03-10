@@ -11,6 +11,7 @@ import Play from './pages/play/play'
 import Effects from './pages/play/effects'
 import About from './pages/about/about'
 import FAQ from './pages/about/faq'
+import Rules from './pages/about/rules'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -23,6 +24,7 @@ ReactDOM.render(
         <Route exact path='/effects' element={<Effects/>} />
         <Route exact path='/about' element={<About/>} />
         <Route exact path='/faq' element={<FAQ/>} />
+        <Route exact path='/rules' element={<Rules/>} />
       </Routes>
     </Router>
   </React.StrictMode>,

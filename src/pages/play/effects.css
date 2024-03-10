@@ -1,6 +1,5 @@
 .container {
-  background-color: blanchedalmond;
-  padding: 20px 0px;
+  padding: 10px 0px 0px 0px;
   width: 100%;
   max-width:1200px;
   margin: 0px auto;
@@ -8,4 +7,3 @@
   flex-flow: wrap;
   justify-content: center;
 }
-
