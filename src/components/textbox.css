@@ -1,73 +1,76 @@
-.card {
-  /* Display a card as a flex box containing the cards name, img, and links */
-  display: flex;
-  flex-direction: column;
+.box {
+  /* Hold the box which contains and manages the header and body */
+  display: block;
+  direction: column;
   
-  /* Set The shape of the card */
-  margin: 0px 5px;
-  box-sizing: border-box;
-  border: '2px solid #aa0000';
+  /* Set The shape of the box */
+  width: 100%;
+  margin: 0px 15px;
   align-items: center;
   justify-content: initial;
-  border-radius: 2px;
   padding: 10px 0px;
-
-  /* Add bottom border */
-  border-bottom: 3px dotted rgb(200, 201, 202);
 }
 
-.card img {
-  width: 320px;
-}
+/* The pressable header */
+.box button {
+  display: flex;
 
-.card button {
-  background-color: #222222;
-  color: #d3d3d3;
+  color: #222222;
   font-size: 18px;
-  font-style: bold;
+  font-weight: bold;
   text-align: center;
   line-height: 40px;
   
-  width: 100%;
-  height: 40px;
   border: none;
-  border-radius: 10px 0px 0px 10px;
-  border-right: 1px solid rgb(200, 201, 202);
-  transition: 0.3s;
+  width: 100%;
+  border-bottom: 1px solid rgb(200, 201, 202);
+
+  transition: .3s;
 }
 
-.card button:hover {
+.box button:hover {
   background-color: #ffb9b9;
-  color: #222222;
 }
 
-.card button.link {
-  width: 40px;
-  border-radius: 0px 10px 10px 0px;
-  display: flex;
-  justify-content: center;
-}
+.box button img {
+  transition: 0.3s;
 
-.card button.link img {
   width: 25px;
   height: 25px;
-  filter: invert(90%);
+  filter: invert(10%);
+  padding: 0px 10px;
   margin: auto;
 }
 
-.card button.link img:hover {
-  filter: invert(10%);
+/* Expanded hover image */
+.box button:hover img.expanded {
+  transform: rotate(-90deg);
 }
 
-.card p {
+/* NOT-Expanded hover image */
+.box button:hover img {
+  transform: rotate(90deg);
+}
+
+
+.box button p {
   color: #222222;
+  text-align: left;
   font-size: 22px;
   padding: 2px;
   margin: 0px;
+  width: 100%;
 }
 
-.card .ButtLayout {
-  display: flex;
-  width: 300px;
-  padding: 5px 15px;
+
+/* Body BOX */
+.box .body {
+  transition: .3s;
+
+  /* Set height to min and remove overfolow */
+  overflow: hidden;
+}
+
+.box .body p {
+  margin: 5px 5px 0px 5px;  
 }

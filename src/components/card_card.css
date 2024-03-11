@@ -16,10 +16,6 @@
   border-bottom: 3px dotted rgb(200, 201, 202);
 }
 
-.card img {
-  width: 320px;
-}
-
 .card button {
   background-color: #222222;
   color: #d3d3d3;
@@ -59,15 +55,65 @@
   filter: invert(10%);
 }
 
-.card p {
+.card .nameButton {
+  width: auto;
+  height: 38px;
+  outline: none;
+  border: none;
+  background-color: transparent;
   color: #222222;
+  border-radius: 1px;
   font-size: 22px;
   padding: 2px;
   margin: 0px;
+  transition: .3s;
 }
+
+.card .nameButton:hover {
+  color: #ffb9b9;
+  background-color: transparent;
+}
+
 
 .card .ButtLayout {
   display: flex;
   width: 300px;
   padding: 5px 15px;
+}
+
+.card .cardBox {
+  display: grid;
+  width: 320px;
+  position: relative;
+}
+
+.card img {
+  width: 320px;
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.card .cardBox img.rotate.loading {
+  visibility: visible;
+}
+
+.card .cardBox img.rotate {
+  visibility: hidden;
+  grid-row: 1;
+  grid-column: 1;
+  margin-top: 27%;
+  margin-left: 30%;
+  position: relative;
+  z-index: 1;
+  width: 130px;
+  animation: rotation 1.6s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
