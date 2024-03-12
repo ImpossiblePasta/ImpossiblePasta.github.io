@@ -1,24 +1,32 @@
 {
   "files": {
-    "main.css": "/Unamused/static/css/main.368c8a19.css",
-    "main.js": "/Unamused/static/js/main.094a39a4.js",
+    "main.css": "/Unamused/static/css/main.ae942577.css",
+    "main.js": "/Unamused/static/js/main.eb3e8e2c.js",
     "static/js/787.1b14b5df.chunk.js": "/Unamused/static/js/787.1b14b5df.chunk.js",
     "static/media/Curm Trashmaster Mage.png": "/Unamused/static/media/Curm Trashmaster Mage.7833f4d004fd814d9c32.png",
+    "static/media/Rampage Roller.png": "/Unamused/static/media/Rampage Roller.77e60f75d1b74bdcf244.png",
+    "static/media/Oversimplify.png": "/Unamused/static/media/Oversimplify.cd4707826e058166089f.png",
+    "static/media/betterlotus.png": "/Unamused/static/media/betterlotus.7597f9ff4968d4ccfc34.png",
     "static/media/Quandrix Recall Codex.png": "/Unamused/static/media/Quandrix Recall Codex.fe50940c10294c908ec0.png",
+    "static/media/Freight of Saint Chaff.png": "/Unamused/static/media/Freight of Saint Chaff.7ab17c60f2254ed59f91.png",
+    "static/media/In Your Hands.png": "/Unamused/static/media/In Your Hands.dec6990f630ac1a91a78.png",
     "static/media/Omenpath Awakener.png": "/Unamused/static/media/Omenpath Awakener.c3ad13a2651487567436.png",
+    "static/media/Add Odd Odds.png": "/Unamused/static/media/Add Odd Odds.8fb9a093452def128197.png",
+    "static/media/Acorn Acrobat.png": "/Unamused/static/media/Acorn Acrobat.618813feaa97bbc2457b.png",
     "static/media/Sheet Head.png": "/Unamused/static/media/Sheet Head.7efd5fb5a38de08887d4.png",
     "static/media/Blade of This or That.png": "/Unamused/static/media/Blade of This or That.cffd7062d917db0187f5.png",
+    "static/media/Impromptu Interlude.png": "/Unamused/static/media/Impromptu Interlude.8377141c0a7cfcbf1350.png",
+    "static/media/An All Too Friendly Reminder.png": "/Unamused/static/media/An All Too Friendly Reminder.f6f73556a69e1003676c.png",
+    "static/media/qwrlio.png": "/Unamused/static/media/qwrlio.f963523c725a11893157.png",
     "static/media/Trifle Mage.png": "/Unamused/static/media/Trifle Mage.5b998c1e32c4a3c088e4.png",
     "static/media/lotus.jpeg": "/Unamused/static/media/lotus.918aa4b8b71acd415a09.jpeg",
-    "static/media/trans_d20.png": "/Unamused/static/media/trans_d20.88221cbcdb22ba6f22d3.png",
-    "static/media/logo.svg": "/Unamused/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Unamused/index.html",
-    "main.368c8a19.css.map": "/Unamused/static/css/main.368c8a19.css.map",
-    "main.094a39a4.js.map": "/Unamused/static/js/main.094a39a4.js.map",
+    "main.ae942577.css.map": "/Unamused/static/css/main.ae942577.css.map",
+    "main.eb3e8e2c.js.map": "/Unamused/static/js/main.eb3e8e2c.js.map",
     "787.1b14b5df.chunk.js.map": "/Unamused/static/js/787.1b14b5df.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.368c8a19.css",
-    "static/js/main.094a39a4.js"
+    "static/css/main.ae942577.css",
+    "static/js/main.eb3e8e2c.js"
   ]
 }
