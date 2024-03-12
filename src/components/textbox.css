@@ -2,18 +2,20 @@
   /* Hold the box which contains and manages the header and body */
   display: block;
   direction: column;
+
+  box-sizing: border-box;
   
   /* Set The shape of the box */
   width: 100%;
-  margin: 0px 15px;
   align-items: center;
   justify-content: initial;
-  padding: 10px 0px;
+  padding: 10px 0;
 }
 
 /* The pressable header */
 .box button {
   display: flex;
+  box-sizing: border-box;
 
   color: #222222;
   font-size: 18px;
@@ -65,10 +67,13 @@
 
 /* Body BOX */
 .box .body {
+  width: 100%;
   transition: .3s;
+  padding: 0px 10px;
 
   /* Set height to min and remove overfolow */
   overflow: hidden;
+  box-sizing: border-box;
 }
 
 .box .body p {

@@ -7,3 +7,8 @@
     flex-flow: wrap;
     justify-content: center;
   }
+
+.widthHandler {
+  width: 100%;
+  margin: 0px 15px;
+}

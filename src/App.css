@@ -135,7 +135,7 @@
 
 /* Float the link section to the right */
 .footer-box {
-  min-width: 180px;
+  min-width: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -185,3 +185,6 @@
     width: 100%;
   }
 }
+
+
+/* Home Page Content */
