@@ -1,0 +1,52 @@
+.slideshow {
+  display: grid;
+  /* Display a card as a flex box containing the cards name, img, and links */
+  max-width: 375px;
+  min-width: 320px;
+  position: inherit;
+  margin: 0px auto;
+  width: auto;
+  aspect-ratio: 0.717;
+}
+
+.slideshow .cardImg {
+  /* Display a card and animate its changes */
+  width: 100%;
+  transition: .4s;
+
+  
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.slideshow button {
+  grid-row: 1;
+  grid-column: 1;
+
+  height: 100%;
+  width: 20%;
+  border: none;
+  background-color: transparent;
+  transition: .3s;
+  z-index: 1;
+}
+
+.slideshow button:hover {
+  background-color: rgba(73, 73, 73, 0.438);
+}
+
+.slideshow button.next {
+  transform: translateX(400%);
+}
+
+.slideshow button img {
+  margin: 0px 0px 0px 0px;
+  opacity: .9;
+  height: 40px;
+  filter: invert(.9);
+}
+
+.slideshow button.last img {
+  left: 10%;
+  transform: scaleX(-1);
+}

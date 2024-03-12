@@ -8,7 +8,17 @@
     justify-content: center;
   }
 
+  .container p {
+    font-size: 18px;
+  }
+
 .widthHandler {
   width: 100%;
   margin: 0px 15px;
+}
+
+img.qwrl {
+  width: 200px;
+  padding-top: 20px;
+  margin: 0px 20px;
 }

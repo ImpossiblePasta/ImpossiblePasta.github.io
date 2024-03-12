@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {Text, Image, Button} from 'react-native';
-import './effects.css';
+import './play.css';
 import ArtHeader from '../../components/art_header';
 import CardCard from '../../components/card_card';
 

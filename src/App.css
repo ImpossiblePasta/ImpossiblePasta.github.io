@@ -188,3 +188,35 @@
 
 
 /* Home Page Content */
+.homeBound {
+  margin: 15px auto;
+  padding: 0px 15px;
+  max-width: 1200px;
+  flex-direction: row;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+}
+
+.homeBound .slideShowHolder {
+  display: initial;
+  height: 100%;
+}
+
+.homeBound .homeTextBox {
+  min-width: 260px;
+  margin: 10px 10px 10px 10px
+}
+
+.homeBound .homeTextBox p {
+  font-size: 18px;
+}
+
+
+
+/* If the screen is small, change the size of the screen to account for  */
+@media screen and (max-width: 600px) {
+  .homeBound {
+    flex-direction: column;
+  }
+}
