@@ -12,7 +12,7 @@ function About(){
             <div class='container'>
             <div class='widthHandler'>
                 <p>
-                Unamused is a custom unset made by me, Evella. I've been a fan of magic for years and the thing that truly drew me into the game was silver bordered cards. It’s the endless possibilities and fun of MTG, now with 1,000% more squirrels. What's not to love?
+                Unamused is a custom unset made by me, Evella (Eve). I've been a fan of magic for years and the thing that truly drew me into the game was silver bordered cards. It’s the endless possibilities and fun of MTG, now with 1,000% more squirrels. What's not to love?
 So, like any rational person would, I began making custom cards. What started as a few stray designs, began forming into a full-fledged set. After feverish design and testing the set was almost complete. That was 2 years ago. It turns out you can tinker with something forever if you let yourself. Eventually, enough was enough and it was time to release a final version.
                 </p>
                 <p>
