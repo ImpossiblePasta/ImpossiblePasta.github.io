@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/Unamused/static/css/main.ae942577.css",
-    "main.js": "/Unamused/static/js/main.eb3e8e2c.js",
+    "main.js": "/Unamused/static/js/main.bc85dd0a.js",
     "static/js/787.1b14b5df.chunk.js": "/Unamused/static/js/787.1b14b5df.chunk.js",
+    "static/media/Oversimplify.png": "/Unamused/static/media/Oversimplify.cd94be095d0c2d24cbef.png",
     "static/media/Curm Trashmaster Mage.png": "/Unamused/static/media/Curm Trashmaster Mage.7833f4d004fd814d9c32.png",
     "static/media/Rampage Roller.png": "/Unamused/static/media/Rampage Roller.77e60f75d1b74bdcf244.png",
-    "static/media/Oversimplify.png": "/Unamused/static/media/Oversimplify.cd4707826e058166089f.png",
     "static/media/betterlotus.png": "/Unamused/static/media/betterlotus.7597f9ff4968d4ccfc34.png",
     "static/media/Quandrix Recall Codex.png": "/Unamused/static/media/Quandrix Recall Codex.fe50940c10294c908ec0.png",
     "static/media/Freight of Saint Chaff.png": "/Unamused/static/media/Freight of Saint Chaff.7ab17c60f2254ed59f91.png",
@@ -22,11 +22,11 @@
     "static/media/lotus.jpeg": "/Unamused/static/media/lotus.918aa4b8b71acd415a09.jpeg",
     "index.html": "/Unamused/index.html",
     "main.ae942577.css.map": "/Unamused/static/css/main.ae942577.css.map",
-    "main.eb3e8e2c.js.map": "/Unamused/static/js/main.eb3e8e2c.js.map",
+    "main.bc85dd0a.js.map": "/Unamused/static/js/main.bc85dd0a.js.map",
     "787.1b14b5df.chunk.js.map": "/Unamused/static/js/787.1b14b5df.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ae942577.css",
-    "static/js/main.eb3e8e2c.js"
+    "static/js/main.bc85dd0a.js"
   ]
 }
