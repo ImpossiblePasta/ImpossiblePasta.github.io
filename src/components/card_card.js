@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Text, View } from 'react-native';
 import './card_card.css';
 import tabImg from '../assets/icons/newtab.png';
 import loadingImg from '../assets/icons/loading.png';

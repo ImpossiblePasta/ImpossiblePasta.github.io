@@ -71,6 +71,8 @@ function Effects(){
     },
   ])
 
+  const BoosterTutorImg = require('../../assets/display_cards/Booster Tutor.png')
+
   document.title="About"
   return (
       <div>
@@ -83,8 +85,24 @@ function Effects(){
                   image={card.img_link}
                   link={card.card_link}
                 />
-              ))
+              )) 
             }
+
+          <div class="card">
+                <button class="nameButton" >
+                    BOOSTER TUTOR
+                </button>
+                <div class="cardBox">
+                  <img src={BoosterTutorImg} />
+                </div>
+
+                  <div class="ButtLayout">
+                    <button class='pack'
+                      onClick={() => window.open('https://cubecobra.com/cube/samplepack/184b75cd-3bdb-4c31-a332-27c6d44a3856', '_blank')}
+                    >OPEN UNAMUSED</button>
+                  </div>
+          </div>
+
           </div>
       </div>
   )
