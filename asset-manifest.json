@@ -1,10 +1,18 @@
 {
   "files": {
-    "main.css": "/Unamused/static/css/main.ae942577.css",
-    "main.js": "/Unamused/static/js/main.bc85dd0a.js",
+    "main.css": "/Unamused/static/css/main.9b927160.css",
+    "main.js": "/Unamused/static/js/main.9d95c784.js",
     "static/js/787.1b14b5df.chunk.js": "/Unamused/static/js/787.1b14b5df.chunk.js",
+    "static/media/UnAmused-ALL_IMAGES.zip": "/Unamused/static/media/UnAmused-ALL_IMAGES.be124bb9235cf33e457a.zip",
+    "static/media/UnAmused-MSE.zip": "/Unamused/static/media/UnAmused-MSE.1e31755a43dcd2c0d427.zip",
+    "static/media/UNA-COMMON-Letter.pdf": "/Unamused/static/media/UNA-COMMON-Letter.f809cab99522aa5d7eee.pdf",
+    "static/media/UNA-UNCOMMON-Letter.pdf": "/Unamused/static/media/UNA-UNCOMMON-Letter.57cad0a056c07fadd94e.pdf",
+    "static/media/UNA-RARE-MYTHIC-Letter.pdf": "/Unamused/static/media/UNA-RARE-MYTHIC-Letter.7b846452a1f2cee1e59a.pdf",
+    "static/media/UNAR-Letter.pdf": "/Unamused/static/media/UNAR-Letter.c6c21ba0099ed1fbc6a8.pdf",
+    "static/media/UNA-TOKEN-Letter.pdf": "/Unamused/static/media/UNA-TOKEN-Letter.0e2b0f0f63d543e9246b.pdf",
     "static/media/Oversimplify.png": "/Unamused/static/media/Oversimplify.cd94be095d0c2d24cbef.png",
     "static/media/Curm Trashmaster Mage.png": "/Unamused/static/media/Curm Trashmaster Mage.7833f4d004fd814d9c32.png",
+    "static/media/Booster Tutor.png": "/Unamused/static/media/Booster Tutor.95d46b82719288bbfca0.png",
     "static/media/Rampage Roller.png": "/Unamused/static/media/Rampage Roller.77e60f75d1b74bdcf244.png",
     "static/media/betterlotus.png": "/Unamused/static/media/betterlotus.7597f9ff4968d4ccfc34.png",
     "static/media/Quandrix Recall Codex.png": "/Unamused/static/media/Quandrix Recall Codex.fe50940c10294c908ec0.png",
@@ -21,12 +29,12 @@
     "static/media/Trifle Mage.png": "/Unamused/static/media/Trifle Mage.5b998c1e32c4a3c088e4.png",
     "static/media/lotus.jpeg": "/Unamused/static/media/lotus.918aa4b8b71acd415a09.jpeg",
     "index.html": "/Unamused/index.html",
-    "main.ae942577.css.map": "/Unamused/static/css/main.ae942577.css.map",
-    "main.bc85dd0a.js.map": "/Unamused/static/js/main.bc85dd0a.js.map",
+    "main.9b927160.css.map": "/Unamused/static/css/main.9b927160.css.map",
+    "main.9d95c784.js.map": "/Unamused/static/js/main.9d95c784.js.map",
     "787.1b14b5df.chunk.js.map": "/Unamused/static/js/787.1b14b5df.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae942577.css",
-    "static/js/main.bc85dd0a.js"
+    "static/css/main.9b927160.css",
+    "static/js/main.9d95c784.js"
   ]
 }
