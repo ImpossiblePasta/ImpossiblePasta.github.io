@@ -34,7 +34,7 @@ function Play(){
                                 <li> <p> 3x Uncommons </p> </li>
                                 <li> <p> 9x Commons </p> </li>
                                 <li> <p> 1x Land (Any Rarity) </p> </li>
-                                <li> <p> 1x <a href='https://cubecobra.com/cube/list/UNAR?view=spoiler&scale=large' target="blank"> UnShifted Reprint </a> </p> </li>
+                                <li> <p> 1x <a href='https://cubecobra.com/cube/list/UNAR?view=spoiler&scale=large' target="blank"> UnPrinted Reprint </a> </p> </li>
                             </ul>
                             <p>
                                 <a href='https://cubecobra.com/cube/samplepack/184b75cd-3bdb-4c31-a332-27c6d44a3856' target="blank"> Click here</a> for a sample pack.
@@ -68,7 +68,7 @@ function Play(){
                                             <li><p> 4x of each common </p></li>
                                             <li><p> 2x of each uncommon </p></li>
                                             <li><p> 1x of each rare and mythic </p></li>
-                                            <li><p> 1x of each unshifted card </p></li>
+                                            <li><p> 1x of each unPrinted card </p></li>
                                         </ul>
                                         <p>This perfectly creates 48 packs of 15 cards.</p>
                                     </div>
